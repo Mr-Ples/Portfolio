@@ -8,7 +8,7 @@ body {
   background-image: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(8, 8, 8);
+  color: rgb(245, 245, 245);
   line-height: 1.6;
   height: 100vh;
 }
@@ -25,7 +25,7 @@ body {
   display: flex; /* ul inside is a flex item */
   width: 100%;
   height: 60px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .navbar ul {
@@ -70,4 +70,19 @@ section p {
 
 #home {
   color: #ffffffe7;
+}
+
+#about {
+  background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900") no-repeat
+    center center;
+}
+
+#projects {
+  background: url("https://source.unsplash.com/2aAHlfDOhJM/1600x900") no-repeat
+    center center;
+}
+
+#contact {
+  background: url("https://source.unsplash.com/bZZp1PmHI0E/1600x900") no-repeat
+    center center;
 }
